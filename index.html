@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jayanth Dannana — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Jayanth Dannana</a>
+      <nav id="primary-nav" class="nav">
+        <ul>
+          <li><a class="nav-link active" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <h1>Hi — I'm <span class="accent">Jayanth Dannana</span></h1>
+        <p class="lead">
+          Aspiring Electronics Engineer and ECE student at SRM University.
+        </p>
+        <div class="cta-row">
+          <a class="btn" href="projects.html">View Projects</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card">
+          <h3>Top Skills</h3>
+          <ul class="skills">
+            <li>AI</li>
+            <li>Machine Learning</li>
+            <li>Embedded Systems</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:dannanajayateja@gmail.com">dannanajayateja@gmail.com</a></p>
+          <p>Location: Chennai, India</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-preview container">
+      <h2>Selected Projects</h2>
+      <div class="grid cols-3">
+        <article class="project-card">
+          <h4>Embedded System</h4>
+          <p>Designed a low-power sensor node using AVR microcontroller.</p>
+          <a class="link" href="projects.html">See details</a>
+        </article>
+
+        <article class="project-card">
+          <h4>ML Classifier</h4>
+          <p>Trained a classifier for modulation types using Python and scikit-learn.</p>
+          <a class="link" href="projects.html">See details</a>
+        </article>
+
+        <article class="project-card">
+          <h4>Portfolio Website</h4>
+          <p>This personal portfolio built using HTML, CSS and JavaScript.</p>
+          <a class="link" href="projects.html">See details</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jayanth Dannana</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
